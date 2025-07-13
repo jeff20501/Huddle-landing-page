@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=League+Spartan:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=League+Spartan:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Young+Serif&display=swap');
+
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans', 'san serif';
+    font-weight: 400;
+    font-size: 1.3rem;
+    max-inline-size: 1440px;
+    background-image: url("./images/bg-desktop.svg");
+    background-size:contain;
+    background-color: hsl(257, 40%, 49%);
+    color: hsl(0, 10%, 90%);
+}
+
+h1{
+    font-family: 'Poppins';
+    font-size: 2.8rem;
+}
+
+img{
+    display: block;
+    max-inline-size: 100%;
+}
+
+a{
+    color: hsl(0, 10%, 90%);
+    margin: 10px;
+    text-decoration: none;
+}
+
+a:hover{
+    color: hsl(300, 69%, 71%);
+    cursor: pointer;
+}
+
+
+.wrapper{
+    display: flex;
+    max-inline-size: 1400px;
+    margin: 0 auto;
+    margin-top: 100px;
+    gap:80px;
+
+}
+
+.mockups{
+    inline-size: 700px
+}
+
+.info{
+    inline-size: 600px;
+}
+
+.register-btn{
+    text-align: center;
+    font-size: 1.3rem;
+    inline-size: 180px;
+    block-size: 45px;
+    border: none;
+    background-color: hsl(0, 10%, 90%);
+    border-radius: 25px;
+    color: hsl(257, 40%, 49%);
+    box-shadow: 5px 5px 10px black;
+}
+
+.register-btn:hover{
+    background-color: hsl(300, 69%, 71%);
+    color: hsl(0, 10%, 90%);
+    cursor: pointer;
+}
+
+.social-link{
+    margin-left: 1290px;
+} 
+
+.attribution{
+    color: black;
+    text-align: center;
+}
