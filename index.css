@@ -53,20 +53,18 @@ a:hover{
 
 
 .wrapper{
-    
-    max-inline-size: 1100px;
+    max-inline-size: 1300px;
 
 }
 .main{
-
-    max-inline-size: 900px;
+    max-inline-size: 1100px;
     display: flex;
     margin: 0 auto;
     margin-top: 100px;
-    gap:80px;
+    gap:100px;
     @media(width<850px){
         flex-wrap: wrap;
-        justify-content: center;
+        margin-left: 50px;
     }
 }
 
@@ -78,7 +76,7 @@ a:hover{
 }
 
 .info{
-    inline-size: 630px;
+    inline-size: 650px;
 }
 
 .register-btn{
