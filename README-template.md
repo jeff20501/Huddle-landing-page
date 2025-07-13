@@ -41,8 +41,8 @@ I didn’t face major challenges on this build — the structure was straightfor
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [GitHub repo](https://github.com/jeff20501/Huddle-landing-page)
+- Live Site URL: [netlify url](https://hupage.netlify.app/)
 
 ## My process
 

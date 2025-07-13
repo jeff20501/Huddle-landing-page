@@ -9,17 +9,30 @@
 body{
     font-family: 'Open Sans', 'san serif';
     font-weight: 400;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     max-inline-size: 1440px;
     background-image: url("./images/bg-desktop.svg");
     background-size:contain;
+    height: 100vh;
     background-color: hsl(257, 40%, 49%);
     color: hsl(0, 10%, 90%);
+    @media(width<850px){
+        background-image: url("./images/bg-mobile.svg");
+        background-size:contain;
+        height: 100vh;
+        background-repeat:no-repeat;
+        justify-content: center;
+    }
+}
+
+header{
+    margin-top: 40px;
+    margin-left: 40px;
 }
 
 h1{
     font-family: 'Poppins';
-    font-size: 2.8rem;
+    font-size: 2.4rem;
 }
 
 img{
@@ -40,20 +53,32 @@ a:hover{
 
 
 .wrapper{
+    
+    max-inline-size: 1100px;
+
+}
+.main{
+
+    max-inline-size: 900px;
     display: flex;
-    max-inline-size: 1400px;
     margin: 0 auto;
     margin-top: 100px;
     gap:80px;
-
+    @media(width<850px){
+        flex-wrap: wrap;
+        justify-content: center;
+    }
 }
 
 .mockups{
-    inline-size: 700px
+    inline-size: 700px;
+    @media(width<850px){
+        max-inline-size: 500px;
+    }
 }
 
 .info{
-    inline-size: 600px;
+    inline-size: 630px;
 }
 
 .register-btn{
@@ -61,11 +86,15 @@ a:hover{
     font-size: 1.3rem;
     inline-size: 180px;
     block-size: 45px;
+    padding: 10px;
     border: none;
     background-color: hsl(0, 10%, 90%);
     border-radius: 25px;
     color: hsl(257, 40%, 49%);
     box-shadow: 5px 5px 10px black;
+    @media(width<850px){
+        justify-content: center;
+    }
 }
 
 .register-btn:hover{
@@ -75,10 +104,19 @@ a:hover{
 }
 
 .social-link{
-    margin-left: 1290px;
+    transform: translateX(80%);
+    margin-top: 50px;
+    margin-bottom: 50px;
+    @media(width<850px){
+        transform: translateX(30%);
+    }
+    
 } 
 
 .attribution{
     color: black;
     text-align: center;
+    @media(width<850px){
+        text-align: center;
+    }
 }
